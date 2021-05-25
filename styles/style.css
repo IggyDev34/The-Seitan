@@ -538,6 +538,10 @@ section {
     margin-right: 20px;
 }
 
+.carousel-foto:hover {
+    background-color: #18CFAB;
+}
+
 .carousel-arrow-image:hover {
     background-color: #18CFAB;
     border-color: #18CFAB;
