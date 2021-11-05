@@ -65,18 +65,17 @@ function filterImgs(e) {
 /* Load more */
 
 const loadMoreBtn = document.querySelector('.amazing-work-btn');
-const loadMoreBtn2 = document.querySelector('.amazing-work-btn2');
+// const loadMoreBtn2 = document.querySelector('.amazing-work-btn2');
 
 loadMoreBtn.addEventListener('click', (e) => {
     loadMore('unvis2');
     e.target.className = 'unvis';
-    loadMoreBtn2.classList.remove('unvis');
 });
 
-loadMoreBtn2.addEventListener('click', (e) => {
-    loadMore('unvis3');
-    e.target.className = 'unvis';
-});
+// loadMoreBtn2.addEventListener('click', (e) => {
+//     loadMore('unvis3');
+//     e.target.className = 'unvis';
+// });
 
 /* Carousel */
 
